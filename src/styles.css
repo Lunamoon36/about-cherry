@@ -83,23 +83,16 @@ p {
     font-size: 48px;
     line-height: 1.5;
   }
-}
-
-@media (max-width: 576px) {
   h2,
   p,
   .primary-link {
     text-align: center;
   }
-}
-
-@media (max-width: 576px) {
   .primary-link {
     display: block;
     margin: 0 20px;
   }
-}
-@media (max-width: 576px) {
+
   h2 {
     font-size: 32px;
   }
