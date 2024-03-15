@@ -28,32 +28,6 @@ p {
   line-height: 1.5;
   margin: 20px;
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
-  }
-}
-
-@media (max-width: 576px) {
-  h2,
-  p,
-  .primary-link {
-    text-align: center;
-  }
-}
-
-@media (max-width: 576px) {
-  .primary-link {
-    display: block;
-    margin: 0 20px;
-  }
-}
-@media (max-width: 576px) {
-  h2 {
-    font-size: 32px;
-  }
-}
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -102,4 +76,31 @@ p {
   justify-content: center;
   font-size: 28px;
   text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 576px) {
+  h2,
+  p,
+  .primary-link {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .primary-link {
+    display: block;
+    margin: 0 20px;
+  }
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+  }
 }
